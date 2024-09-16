@@ -1,0 +1,19 @@
+#ex1
+integer_var = 17
+float_var = 5,2
+string_var = "win"
+list_var = [3,4,5,6]
+tuple_var = (10,20)
+dict_var = {"name": "Mark", "age": 98}
+set_var = {1,4,8}
+bool_var = "false"
+
+#ex2
+name = "Matvey"
+age = 17
+average_grade = 4.3
+favourite_movies = ["Шоу трумана","Бетмен","Майнкрафт"]
+personal_info = {"Фамилия": "Чураев", "Номер колледжа": "каит20", "Средний бал": 4.3}
+skills = {"Хоккей": 8, "Пинг понг": 3, "Китайский": 10}
+visited_countries = {"Пакистан", "Таджистан", "Вьетнам"}
+has_driver_license = true
