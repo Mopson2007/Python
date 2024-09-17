@@ -7,6 +7,7 @@ tuple_var = (10,20)
 dict_var = {"name": "Mark", "age": 98}
 set_var = {1,4,8}
 bool_var = "false"
+print(integer_var, floar_var, string_var, list_var, tuple_var, dict_var, set_var, bool_var)
 
 #ex2
 name = "Matvey"
@@ -17,3 +18,10 @@ personal_info = {"Фамилия": "Чураев", "Номер колледжа"
 skills = {"Хоккей": 8, "Пинг понг": 3, "Китайский": 10}
 visited_countries = {"Пакистан", "Таджистан", "Вьетнам"}
 has_driver_license = true
+
+#ex3
+proc = "intel i3"
+ram = 16
+inter_speed = 86.55
+home_pc = ["intel i3", 16, 86.55]
+print(home_pc)
