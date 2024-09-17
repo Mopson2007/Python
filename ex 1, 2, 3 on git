@@ -20,8 +20,8 @@ visited_countries = {"Пакистан", "Таджистан", "Вьетнам"}
 has_driver_license = true
 
 #ex3
-proc = "intel i3"
+proc = "intel i9"
 ram = 16
-inter_speed = 86.55
+inter_speed = 84.32
 home_pc = ["intel i3", 16, 86.55]
 print(home_pc)
