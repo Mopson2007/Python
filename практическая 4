@@ -1,0 +1,13 @@
+#ex1
+my_age = int(input("Введите ваш возраст: "))
+friend_age = int(input("Введите возраст друга: "))
+summa_age = (my_age + friend_age)
+print("Сумма ваших возрастов", summa_age)
+
+#ex2
+name = input("Введите ваше имя: ")
+fam = input("Введите вашу фамилию: ")
+fio = (name + " " + fam)
+print("Привет!", fio)
+
+#ex3
