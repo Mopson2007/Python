@@ -30,3 +30,79 @@ elif num == "2":
    print(num1 - num2)
 elif num == "3":
    print
+#ex4
+num = int(input("введите число:"))
+if num %2 == 0 and num %10 == 6:
+    print(True)
+elif num %2 == 0 and num %10 == 2:
+    print(True)
+else:
+    print(False)
+ #ex5
+par = input("Пароль:")
+pas = input("Введите пароль:")
+if pas == par:
+        print("Доступ разрешен.")
+else:
+        print("Неверный пароль!")
+#ex6
+blue = ("B1","B3","B7","C1","C4","C5","C8","C9")
+green = ("B2","B4","B6","B8","C2","C7","C10","C11")
+col = input("Введите координаты квадрата:")
+if col in blue:
+    print ("в синем квадрате обитает синий попугай")
+if col in green:
+    print ("в зеленом квадрате обитает зеленый попугай")
+else:
+    print("В данном квадрате никто не обитает ")
+#ex7
+num1 = int(input("Введите число n: "))
+num2 = int(input("Введите число k: "))
+if num1 % num2 == 0:
+    print(True)
+else:
+    print(False)
+
+#ex8
+name = "9mice"
+health = 144
+level = 16
+if level > 16 and health > 144:
+   print("Вы готовы к миссии!")
+elif level > 16 and health < 144 and health > 289:
+elif health > 144 or health <72
+   print("Выше здоровье низкое, будьте осторожнее)
+elif health < 36:
+   print("Ваше здоровье слишком низкое")
+elif level < 16:
+   print("Ваш уровень слишком низкий для выполнения миссии")
+else:
+   print("Введены некорректные данные")
+
+#ex9
+inventory = ["яблоко", "шариковая ручка", "фонарь", "ключ."]
+if "ключ" in inventory and "фонарь" in inventory:
+     print("Вы можете пройти через дверь")
+elif "ключ" not in inventory and "фонарь" not in inventory:
+     print("У вас нет ни ключа, ни фонаря, вы не можете пройти через дверь")
+if "ключ" not in inventory:
+     print("У вас нет ключа, вы не можете открыть дверь.")
+elif "фонарь" not in inventory:
+     print("У вас нет фонаря, слишком темно, чтобы пройти.")
+
+#ex10
+king = ("Enemies are coming! are the archers ready?")
+warrior = "For the Alliance!"
+magician = "The spell is ready."
+if "?" in king or "!" in warrior or "." in  warrior:
+    print("True")
+else:
+    print("False")
+if "?" in warrior or "!" in warrior or "." in warrior:
+    print("True")
+else:
+    print("False")
+if "?" in magician or "!" in magician or "." in magician:
+    print("True")
+else:
+    print("False")
