@@ -1,0 +1,19 @@
+#EX1
+name = ["Richard", "Igor", "Jonathan", "Alice", "Mary", "Bonnie"]
+for i in name:
+    print("Hello", i, "!")
+
+#EX2
+phrase = "I'm learning cycles."
+for i in range(10):
+    print(phrase)
+
+#EX3
+station = ["Малиновка", "Рябиновка", "Суслово", "Дрожжино", "Звягино"]
+for i in station:
+    if i == "Звягино":
+        print(f"Поезд на станции: {i} Конечная!")
+    else:
+        print(f"Поезд на станции: {i}")
+
+#EX4
