@@ -17,3 +17,34 @@ for i in station:
         print(f"Поезд на станции: {i}")
 
 #EX4
+shop = ["Laptop", "Smartphone", "Watch", "Tablet", "Headphones"]
+for i in shop:
+    if i == "Laptop":
+        print("im bying this")
+    else:
+        print("I dont need it")
+
+#EX5
+tasks = ["Сдать проект (Важная)", "Сходить в магазин", "Позвонить врачу (Важная)", "Убраться в комнате", "Подготовить отчёт"]
+for index, task in enumerate(tasks,start=1):
+    if "Важная" in tasks:
+        print(f"{index}: {task} !")
+    else:
+        print(f"{index}: {task}")
+
+#EX6
+pon = 0
+abc = int(input("Введите количество чисел:"))
+for num in range(abc):
+    print("Введите сами числа")
+    lon = int(input())
+    pon = pon + lon
+print("Сумма чисел:",pon)
+
+#EX7
+count = -1
+while count < 9:
+    count += 1
+    print(count)
+
+#EX8
