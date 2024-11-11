@@ -48,3 +48,39 @@ while count < 9:
     print(count)
 
 #EX8
+while True:
+    pon = str(input(">"))
+    if pon == "w":
+        print("Персонаж идет вперед")
+    elif pon == "a":
+        print("Персонаж идет влево")
+    elif pon == "s":
+        print("Персонаж идет назад")
+    elif pon == "d":
+        print("Персонаж идет вправо")
+    elif pon == "stop":
+        print("Проаграмма остановлена")
+        break
+    else:
+        print("Неизвестная команда, попробуйте еще раз")
+
+#EX9
+
+y = int(input("Введите число от 1 до 9:"))
+n = 1
+for i in range(1, 10+1):
+    print(i, "*", y, "=", y * n)
+    n += 1
+
+#EX10
+print("Загадка: Музыкант, певец, рассказчик - А всего труба да ящик. /ответ:")
+rot = 3
+while rot > 0:
+    pon = str(input(""))
+    if pon == "граммофон":
+        print("Загадка разгадана. Поздравляю!")
+        break
+    else:
+        rot = rot -1
+    print("Неправильно!")
+    print("Попыток осталось:", rot)
