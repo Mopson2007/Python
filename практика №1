@@ -24,3 +24,6 @@ print(path + "\\picture.png")
 path = "C:\\Games\\city simulator"
 print(path)
 print(path*2)
+
+#EX3
+num
