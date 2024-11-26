@@ -50,4 +50,28 @@ def triangle(a, b, c):
     area = math.sqrt(s * (s - a) * (s - b) * (s - c))
     print(f"Площадь: {int(s)}\nПериметр: {round(area, 2)}")
 
+#EX4
+def number_change(input_number, output_number):
+    if input_number == output_number:
+        u = 0
+        print(u, input_number, output_number)
+    elif input_number < output_number:
+        u = 0
+        i = input_number
+        while True:
+            i = i + 1
+            u = u + 1
+            if i == output_number:
+                break
+        print(u, i, output_number)
+    else:
+        u = 0
+        i = input_number
+        while True:
+            i = i - 1
+            u = u + 1
+            if i == output_number:
+                break
+        print(u, i, output_number)
+
 
