@@ -1,14 +1,12 @@
 
 class Create_Personage:
     def __init__(self, name_pers, class_pers, hp_pers, damage_pers):
-        """Конструктор класса. Инициализирует атрибуты персонажа."""
         self.name_pers = name_pers
         self.class_pers = class_pers
         self.hp_pers = hp_pers
         self.damage_pers = damage_pers
 
     def print_info(self):
-        """Выводит информацию о персонаже."""
         print(f"Имя: {self.name_pers}")
         print(f"Класс: {self.class_pers}")
         print(f"Жизни: {self.hp_pers}")
@@ -16,7 +14,6 @@ class Create_Personage:
 
 
     def go_on_a_trip(self):
-        """Выводит сообщение о начале путешествия."""
         print(f"{self.name_pers} отправился в путешествие!")
 
 
@@ -26,7 +23,6 @@ class Create_Personage:
 
 
     def start_training(self):
-        """Выводит сообщение о тренировке и увеличивает характеристики персонажа."""
         print(f"{self.name_pers} начал тренировку...")
         self.hp_pers += 10  # Увеличиваем жизни
         self.damage_pers += 5  # Увеличиваем урон
@@ -34,7 +30,6 @@ class Create_Personage:
         print(f"Новые жизни: {self.hp_pers}, Новый урон: {self.damage_pers}")
 
     def start_the_battle(self):
-        """Выводит сообщение о начале битвы и показывает характеристики персонажа."""
         print(f"{self.name_pers} готовится к сражению!")
         self.print_info()
 
